@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+        <!--背景颜色-->
+        <item name="windowSplashScreenBackground">@color/splash_bgcolor</item>
+        <!--设置动画或图片-->
+        <item name="windowSplashScreenAnimatedIcon">
+            @drawable/ic_launcher_bird
+        </item>
+        <!--设置闪屏也后启动页面的主题-->
+        <item name="postSplashScreenTheme">@style/Theme.WithinCircle</item>
+        <item name="android:windowSplashScreenBrandingImage">@drawable/ic_tm_brand</item>
+    </style>
+</resources>
