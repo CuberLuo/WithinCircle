@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <style name="Theme.WithinCircle" parent="android:Theme.Material.Light.NoActionBar">
+    </style>
     <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
         <!--背景颜色-->
         <item name="windowSplashScreenBackground">@color/splash_bgcolor</item>
